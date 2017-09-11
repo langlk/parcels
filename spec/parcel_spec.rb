@@ -10,4 +10,21 @@ describe('Parcel') do
       expect(parcel.volume).to(eq(27))
     end
   end
+
+  describe("#cost_to_ship") do
+    it "returns a base cost of 2 dollars" do
+      parcel = Parcel.new(1, 1, 1, 0)
+      expect(parcel.cost_to_ship("standard")).to(eq(2))
+    end
+
+    it "adds 1 dollar for each pound the parcel weighs" do
+      parcel = Parcel.new(1, 1, 1, 3)
+      expect(parcel.cost_to_ship("standard")).to(eq(5))
+    end
+
+    it "adds 1 dollar for each cubic foot of volume greater than 1 cubic foot" do
+      parcel = Parcel.new(1, 1, 3, 0)
+      expect(parcel.cost_to_ship("standard")).to(eq(4))
+    end
+  end
 end

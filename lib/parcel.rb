@@ -13,5 +13,6 @@ class Parcel
   end
 
   def cost_to_ship(shipping)
+    return 2 + @weight + (volume - 1)
   end
 end
