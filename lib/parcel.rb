@@ -13,6 +13,7 @@ class Parcel
   end
 
   def cost_to_ship(shipping)
-    return 2 + @weight + (volume - 1)
+    shipping_mode = {"standard" => 0, "2-day" => 10, "next-day" => 20}
+    2 + @weight + (volume - 1) + shipping_mode[shipping]
   end
 end
