@@ -1,0 +1,31 @@
+<h1>Ship a parcel with Epicodus Shipping Service:</h1>
+
+<form action="/output">
+  <h4>Package Dimensions (Round to nearest foot):</h4>
+  <div class="form-group">
+    <label for="length">Length:</label>
+    <input id="length" name="length" class="form-control" type="number">
+  </div>
+  <div class="form-group">
+    <label for="width">Width:</label>
+    <input id="width" name="width" class="form-control" type="number">
+  </div>
+  <div class="form-group">
+    <label for="height">Height:</label>
+    <input id="height" name="height" class="form-control" type="number">
+  </div>
+  <h4>Package Weight (Round to nearest pound):</h4>
+  <div class="form-group">
+    <input id="weight" name="weight" class="form-control" type="number">
+  </div>
+  <div class="form-group">
+    <label for="shipping">Shipping Mode:</label>
+    <select class="form-control" name="shipping">
+      <option value="standard">Standard</option>
+      <option value="2-day">2-Day</option>
+      <option value="next-day">Next-Day</option>
+    </select>
+  </div>
+
+  <button type="submit" class="btn">Ship!</button>
+</form>
