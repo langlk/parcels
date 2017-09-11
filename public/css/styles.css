@@ -1,0 +1,17 @@
+body {
+  background-color: #88aae2;
+}
+
+.jumbotron {
+  background-color: #203963;
+  color: #cdd1d8;
+}
+
+.btn {
+  background-color: #4b6ba3;
+  color: #cdd1d8;
+}
+
+a {
+  color: #2861cc;
+}
