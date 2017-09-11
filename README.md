@@ -16,7 +16,7 @@ _A Ruby Script_
 
 * Program determines volume of a parcel based on its dimensions.
   * Example Input: 3, 3, 3
-  * Example Output: 9
+  * Example Output: 27
 * Program determines cost to ship of a parcel based on the following:
   * Program returns a base cost of 2 dollars.
     * Example Input: Weight: 0, Volume: 1, Shipping: "Standard"
