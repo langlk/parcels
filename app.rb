@@ -13,7 +13,8 @@ get('/output') do
   height = params["height"].to_i
   weight = params["weight"].to_i
   shipping = params["shipping"]
+  gift_wrapping = params["gift_wrapping"]
   parcel = Parcel.new(length, width, height, weight)
-  @cost = parcel.cost_to_ship(shipping)
+  @cost = parcel.cost_to_ship(shipping, gift_wrapping)
   erb(:output)
 end

@@ -33,6 +33,9 @@ _A Ruby Script_
   * Program adds 20 dollars for next-day shipping.
     * Example Input: Weight: 0, Volume: 1, Shipping: "Next-Day"
     * Example Output: 22
+  * Program adds $.50 for each square foot of surface area if user requests gift-wrapping services.
+  * Example Input: Weight: 2, Surface-area: 6, Volume: 2, Shipping: "Standard", Gift-wrapping: true
+  * Example Output: 6
 
 ## Support and contact details
 
