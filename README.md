@@ -6,7 +6,7 @@
 
 ## Description
 
-_A Ruby Script_
+_A Ruby web app that calculates the cost of shipping parcels._
 
 ## Setup/Installation Requirements
 
