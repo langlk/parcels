@@ -11,6 +11,9 @@ _A Ruby web app that calculates the cost of shipping parcels._
 ## Setup/Installation Requirements
 
 * Clone this repository
+* Run ```bundle install``` in the project root.
+* Run ```ruby app.rb```
+* Open ```localhost:4567``` in your web browser
 
 ## Specifications
 
